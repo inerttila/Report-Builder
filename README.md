@@ -1,10 +1,10 @@
-# <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" alt="git admin" width="40" />  PDF Report Builder
+# <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" alt="git admin" width="40" />  Report Builder
 
-PDF Report Builder is a visual drag-and-drop tool for designing multi-page PDF report templates and instantly generating production-ready code (HTML/CSS, Python ReportLab, XML/QWeb, React). Build once, export anywhere, iterate faster.
+Report Builder is a visual drag-and-drop tool for designing multi-page PDF and Excel report templates and instantly generating production-ready code (HTML/CSS, Python ReportLab, OpenPyXL, XML/QWeb, React). Build once, export anywhere, iterate faster.
 
 It gives you a split workspace:
 
-- **Customize PDF (left):** drag and configure components on a page canvas
+- **Customize Report (left):** drag and configure components on a page canvas
 - **Generated Code (right):** live code output in multiple languages
 
 <img src="image.png" alt="preview" width="800" />
@@ -36,9 +36,9 @@ It also supports:
 The same visual template is exported to:
 
 - **HTML/CSS**
-- **Python (ReportLab)**
-- **XML (QWeb / Odoo style)**
-- **React**
+- **Python (ReportLab , OpenPyXL)**
+- **XML (SpreadsheetML, QWeb / Odoo style)**
+- **React (XLSX Export, Print)**
 
 This makes the tool useful for different backend/frontend stacks.
 
@@ -68,7 +68,7 @@ Tokens like table field keys and Date/Time IDs can be mapped from your system da
 
 ## Typical Workflow
 
-1. Add and place components in **Customize PDF**.
+1. Add and place components in **Customize Report**.
 2. Configure properties (size, style, dynamic IDs, table settings).
 3. Pick output language in **Generated Code**.
 4. Copy generated code into your target application.
@@ -84,4 +84,4 @@ npm run dev
 ## Project Goal
 
 
-Make PDF/report template development visual-first, faster, and easier to maintain for programmers.
+Make PDF/Excel report template development visual-first, faster, and easier to maintain for programmers.

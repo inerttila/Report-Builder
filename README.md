@@ -27,6 +27,8 @@ It also supports:
 - Multi-page canvas
 - Page numbering
 - Table pagination across pages
+- Report Type selector (**PDF** / **Excel**)
+- PDF-only **Landscape** toggle with on/off state
 - Local state persistence
 - Live preview + preview modal
 - Dark-themed code editor UI
@@ -70,7 +72,7 @@ Tokens like table field keys and Date/Time IDs can be mapped from your system da
 
 1. Add and place components in **Customize Report**.
 2. Configure properties (size, style, dynamic IDs, table settings).
-3. Pick output language in **Generated Code**.
+3. Pick **Report Type** (**PDF** or **Excel**) and output language in **Generated Code**.
 4. Copy generated code into your target application.
 5. Repeat changes visually when requirements evolve.
 
